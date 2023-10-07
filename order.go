@@ -65,7 +65,7 @@ type OrderModel struct {
 	PostOnly       bool   `json:"postOnly"`
 	Hidden         bool   `json:"hidden"`
 	IceBerg        bool   `json:"iceberg"`
-	VisibleSize    string `json:"visibleSize"`
+	VisibleSize    int64  `json:"visibleSize"`
 	Leverage       string `json:"leverage"`
 	ForceHold      bool   `json:"forceHold"`
 	CloseOrder     bool   `json:"closeOrder"`
